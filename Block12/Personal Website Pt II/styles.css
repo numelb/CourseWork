@@ -1,0 +1,34 @@
+h2{
+
+    font-style: italic;
+
+}
+
+img{
+
+    width: 500px;  
+    height: 500px;     
+}
+ul{
+    font-size: large;
+}
+
+main{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100vw;
+    margin: 100px 600px;
+
+}
+
+
+#form{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    width: 20vw;
+    margin: 100px 600px;
+    background-color: aquamarine;
+}
