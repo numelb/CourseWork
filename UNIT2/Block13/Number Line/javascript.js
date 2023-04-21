@@ -1,3 +1,11 @@
+// Using if/else if/else statements, JavaScript code in a script tag that
+//  takes the sum of two numbers and prints the corresponding result:
+//create tow variables num1 and num2
+//add the two variables
+//print out the result using the test values.
+
+
+
 let num1 =50;
 let num2 =51;
 let sum =num1 +num2;
