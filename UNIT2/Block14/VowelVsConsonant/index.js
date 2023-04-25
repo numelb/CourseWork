@@ -8,18 +8,20 @@
 // if a match is found print the string and vowel and consonant count.
 //initialize  2 counts to track the number of times a letter is found
 
-const inputString =["h","e","l","l","o","s"]
+const inputString =["h" ,"e","l","l","o","s"]
 const vowels =["a", "e", "i", "o","u"]
 let vowelcount = 0;
-let consonantcount = 0;
+let consonantcount = inputString.length;
 let i;
 let j;
      
 for ( i= 0; i < vowels.length; i++){
-       
-            if(inputString.length===vowels[i]){
+    for ( j= 0; j < inputString.length; j++)
+            if(inputString[j]===vowels[i]){
                              vowelcount++
-                             console.log(inputString[i])
+                             consonantcount--
+                             console.log(vowels[i])
+
             }
         }
          
@@ -27,7 +29,7 @@ for ( i= 0; i < vowels.length; i++){
          
                 // console.log(inputString[i])      
              
-                // consonantcount++ 
+                consonantcount-- 
                
         
            
@@ -35,7 +37,7 @@ for ( i= 0; i < vowels.length; i++){
               
         
         // console.log(inputString[i]) 
-    console.log("hello has " + consonantcount +" consonants and "+ vowelcount +" vowels")
+    console.log(inputString + " has " + consonantcount +" consonants and "+ vowelcount +" vowels")
       
     // console.log()
  
