@@ -15,8 +15,8 @@ for (let i = 0; i< oddArray.length; i++){
     
         if(oddArray[i]%2 ===1){
 
-        newArr[(oddArray[i])]
-        
+        newArr.push(oddArray[i])
+        console.log(newArr)
      }
-    return newArr;
+    
 }
