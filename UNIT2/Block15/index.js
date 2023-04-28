@@ -10,7 +10,7 @@ let customer = {
     favoriteStore:	"Target",
     firstVisit:	false
 };
-
+console.table(customer)
 customer["email"] =  "Jak3Smith1992@email.com";
 customer["phone"] = 3195551234;
 customer ["zipCode"] = 63132;
@@ -24,5 +24,6 @@ customer.toppings =["chocolate sprinkles", "water straws", "gummy bears"];
 customer.futureFlavours= "mango"
 customer.todaysPurchaseCost =  5.32
 
-console.log(Object.keys(customer))
 console.log(customer)
+console.log(Object.keys(customer))
+
