@@ -15,7 +15,14 @@ customer["email"] =  "Jak3Smith1992@email.com";
 customer["phone"] = 3195551234;
 customer ["zipCode"] = 63132;
 customer["favoriteFlavors"] = ["coffee", "strawberry",  "matcha"]
-console.log(customer)
+
 
 delete customer["zipCode"]
 delete customer["favoriteStore"]
+
+customer.toppings =["chocolate sprinkles", "water straws", "gummy bears"];
+customer.futureFlavours= "mango"
+customer.todaysPurchaseCost =  5.32
+
+console.log(Object.keys(customer))
+console.log(customer)
