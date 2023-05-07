@@ -20,4 +20,9 @@ const totalCost = coffee_data.reduce((total, drinkObject) => (total += drinkObje
 // 6. Print an array with all the drinks that are seasonal.
 const seasanlDrinks = coffee_Data.filter((drinkObject) => drinkObject.seasonal  === true );
 
-// 7. Print all the seasonal drinks with the words "with imported beans" after the item name. im
+// 7. Print all the seasonal drinks with the words "with imported beans" after the item name. 
+const importedDrinks = seasonalDrinks.map((drinkObject) => {
+    return drinkObject.name + "with imported beans"
+}
+
+);
