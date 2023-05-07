@@ -11,7 +11,7 @@ const timmy = {
     refills: 3,
     subscription: false,
     coupon: true,
-};
+    };
 
 const sarah = {
     prescription: "diphenhydramine",
@@ -76,8 +76,11 @@ function Total(Object){
     }
 
 }
-
-console.log("Timmy your grand total is $"+  Total(timmy))
+// const customers = [timmy, sarah, rocky]
+// for (let customer of customers) {
+//     console.log(customer +" your grand total is $" + Total(Object))
+//   }
+console.log("Timmy your grand total is $" + Total(timmy))
 console.log("Sarah your grand total is $" + Total(sarah))
 console.log("Rocky Your grand total is $" + Total(rocky))
 // console.log(Object.values(rocky))
