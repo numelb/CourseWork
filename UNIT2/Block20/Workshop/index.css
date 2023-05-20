@@ -1,0 +1,9 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue
+}
+
+li:nth-child(even){
+background-color: rgb(185, 168, 168);
+max-width: 400px;
+}
